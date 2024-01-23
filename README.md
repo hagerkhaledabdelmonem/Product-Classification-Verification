@@ -36,6 +36,13 @@ Using a feature extraction method first (BoW using SIFT) and then use logistic r
   - MobileNet
   - CNN
 
+## Collaborators:
+- <a href="https://github.com/hagerkhaledabdelmonem">Hager Khaled</a><br>
+- <a href="https://github.com/Nourhan613">Nourhan Mohamed</a><br>
+- <a href="https://github.com/YasminHamada">Yasmin Hamada</a><br>
+- <a href="https://github.com/Fatma-Salah-Saleh">Fatma Salah</a><br>
+- <a href="https://github.com/FatmaMahmoudBadr">Fatma Mahmoud</a><br>
+
 
    
 
