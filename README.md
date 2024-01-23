@@ -27,10 +27,10 @@ Product classification and recognition is important task to automate tasks such 
 7. Split into train and validation
 
 
-#### Classical computer vision
+### Classical computer vision
 Using a feature extraction method first (BoW using SIFT) and then use logistic regression as classifier. 
 
-#### Deep learning Models pretrained on ImageNet dataset like :
+### Deep learning Models pretrained on ImageNet dataset like :
   - Xception
   - DenseNet
   - MobileNet
