@@ -2,12 +2,13 @@
 
 Product classification and recognition is important task to automate tasks such as inventory management, pricing. For example, a retailer could use this technology to automatically identify and classify products in a store, and then use this information to update inventory levels, calculate products prices, and provide with information about the products.
 
+## Product Classification:
+
 ### Objectives:
 1. Apply Image preprocessing or Feature Extraction techniques where needed.
 2. Train classification models to determine the product category.
 3. Using Classical computer vision or deep learning.
-4. Train a one/few shot learning model (e.g., Siamese) to verify if a product exists and recognize its type.
-5. Apply Data Preparation steps :
+4. Apply Data Preparation steps :
     - Image Preprocessing :
     
       - Convert image from BGR to RGB
@@ -23,8 +24,8 @@ Product classification and recognition is important task to automate tasks such 
       - Height shift range
       - Zoom range
       - Fill mode by Nearest
-6. Apply OneHotEncoder to convert Classes to labels
-7. Split into train and validation
+5. Apply OneHotEncoder to convert Classes to labels
+6. Split into train and validation
 
 
 ### Classical computer vision
@@ -35,6 +36,16 @@ Using a feature extraction method first (BoW using SIFT) and then use logistic r
   - DenseNet
   - MobileNet
   - CNN
+
+
+
+## Product Verification/Recognition:
+### Objectives:
+  - Train a one/few shot learning model (e.g., Siamese) to verify if a product exists and recognize its type.
+### Steps:  
+  - Train the model using all the training images belonging to the different product classes for one/few shot learning task. 
+  - Validate the model performance on the unseen products in the validation folders.
+
 
 ## Collaborators:
 - <a href="https://github.com/hagerkhaledabdelmonem">Hager Khaled</a><br>
